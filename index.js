@@ -1,6 +1,7 @@
 import { createPost } from "./module/posts/create-post.js";
 import { getPost } from "./module/posts/get-post.js";
-
+import "./node_modules/dayjs/dayjs.min.js";
+import "./node_modules/dayjs/plugin/relativeTime.js";
 
 const formElement = document.querySelector("form");
 const postSectionElement = document.getElementById("post-section");
