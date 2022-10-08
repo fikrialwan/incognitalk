@@ -1,6 +1,7 @@
 import { createPost } from "./module/posts/create-post.js";
 import { getPost } from "./module/posts/get-post.js";
 
+
 const formElement = document.querySelector("form");
 const postSectionElement = document.getElementById("post-section");
 const textAreaElement = document.getElementById("post");
